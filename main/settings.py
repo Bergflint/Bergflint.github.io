@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'main.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.config(conn_max_age=600)
+    'default': dj_database_url.config(conn_max_age=600) #För att en server sak fatta vilken databas man har
 }
 
 # Password validation
